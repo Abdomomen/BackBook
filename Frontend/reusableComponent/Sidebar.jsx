@@ -150,7 +150,6 @@ export default function Sidebar({ user, t, isOpen, onClose }) {
                   </div>
                 )}
               </div>
-              <div className="absolute bottom-0 right-0 w-3.5 h-3.5 bg-green-500 border-2 border-white dark:border-zinc-900 rounded-full shadow-sm"></div>
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest mb-0.5">
