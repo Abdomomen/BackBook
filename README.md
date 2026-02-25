@@ -113,4 +113,9 @@ This project is open-source. Feel free to use and modify it for your needs.
 
 ---
 
-_Made with ❤️ by [Your Name] and Antigravity AI_
+_Made with ❤️ by **Abdo Momen**_
+
+**Credits:**
+
+- **Core Logic & Backend:** Developed by **Abdo Momen**
+- **UI Design & Refinement:** Generated with **Antigravity AI**
