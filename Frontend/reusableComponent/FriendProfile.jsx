@@ -320,11 +320,7 @@ export default function FriendProfile({ id }) {
                         {post.likesCount > 0 ? post.likesCount : ""} {t.love}
                       </button>
                       <button
-                        onClick={() =>
-                          setActiveCommentPost(
-                            activeCommentPost === post._id ? null : post._id,
-                          )
-                        }
+                        onClick={() => router.push(`/main/post/${post._id}`)}
                         className={`flex items-center gap-2 px-4 py-2 rounded-xl transition-all font-black text-[10px] uppercase tracking-widest ${
                           activeCommentPost === post._id
                             ? "bg-primary-50 dark:bg-primary-950/20 text-primary-600"
@@ -349,11 +345,7 @@ export default function FriendProfile({ id }) {
                     </div>
                   </div>
 
-                  {activeCommentPost === post._id && (
-                    <div className="border-t border-border-variant bg-surface-variant flex flex-col max-h-[500px]">
-                      <CommentsSection postId={post._id} />
-                    </div>
-                  )}
+                  {/* Removed internal CommentsSection to match Feed behavior (navigation) */}
                 </div>
               ))}
             </div>

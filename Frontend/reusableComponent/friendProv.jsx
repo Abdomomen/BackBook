@@ -123,7 +123,6 @@ export default function Friends() {
                     </div>
                   )}
                 </div>
-                <div className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 border-2 border-surface rounded-full"></div>
               </div>
 
               <div className="flex-1 min-w-0">

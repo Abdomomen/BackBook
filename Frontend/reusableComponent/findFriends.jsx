@@ -176,9 +176,7 @@ export default function FindFriends() {
                     {user.reason}
                   </div>
                 )}
-                <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 bg-green-500 w-4 h-4 rounded-full border-2 border-surface"></div>
               </div>
-
               <div className="text-center mb-6">
                 <Link
                   href={`/main/profile/${user._id}`}
