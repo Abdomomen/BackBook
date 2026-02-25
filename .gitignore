@@ -1,0 +1,34 @@
+# Dependencies
+**/node_modules
+**/dist
+**/.next
+**/out
+**/build
+
+# Environment Variables
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Images/Uploads
+**/postImages/*
+!**/postImages/.gitkeep
+**/userImages/*
+!**/userImages/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.pulp
+
+# Logs
+**/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
