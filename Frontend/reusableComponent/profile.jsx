@@ -483,7 +483,7 @@ export default function Profile() {
                   </div>
 
                   {activeCommentPost === post._id && (
-                    <div className="border-t border-border-variant bg-surface-variant max-h-[400px]">
+                    <div className="border-t border-border-variant bg-surface-variant flex flex-col max-h-[500px]">
                       <CommentsSection postId={post._id} />
                     </div>
                   )}
